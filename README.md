@@ -1,3 +1,9 @@
+# Installation
+
+ - First time? `pip install .`
+ - Update after making changes: `pip install --upgrade --force-reinstall .`
+ - Once I publish on GH: `pip install git+https://github.com/mrizwan47/serp-outreach-finder.git`
+
 
 
 # Disclaimer
