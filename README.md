@@ -28,6 +28,16 @@ serpo [keyword] -o [output_file] -n [num_results]
 3. `serpo "content marketing" -o marketing_results.csv -n 50`
 
 
+## Common Problems
+### 1. 'WebDriverException: Message: unknown error: cannot find Chrome binary'
+If you get this error, you need to install chrome. Simply follow instructions based on your operating system. If you're on linux / a vps use these commands:
+
+```
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo apt install ./google-chrome-stable_current_amd64.deb
+```
+
+
 ## Disclaimer
 This software is provided "as-is" without any warranty of any kind, either expressed or implied, including but not limited to the implied warranties of merchantability and fitness for a particular purpose. The authors and maintainers are not responsible for any damages, data loss, or legal repercussions that may occur from the use of this software.
 
